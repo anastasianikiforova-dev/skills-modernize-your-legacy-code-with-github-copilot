@@ -2,6 +2,9 @@ const readline = require('node:readline');
 
 const INITIAL_BALANCE_CENTS = 100000;
 const MAX_BALANCE_CENTS = 99999999;
+const schedule = "5PM Tuesday";
+const maxParticipants = 25;
+const description = "Join our epic coding academy! Unleash your inner developer powers, master the code, and build legendary applications together!";
 
 class AccountData {
   constructor(initialBalanceCents = INITIAL_BALANCE_CENTS) {
